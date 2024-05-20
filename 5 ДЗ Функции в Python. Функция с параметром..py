@@ -1,6 +1,6 @@
 def print_params(name):
-    print(name)
-    print(name)
+    for i in range(2):
+        print(name)
 
 
 print_params('Kate')
